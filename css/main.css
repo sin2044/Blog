@@ -1,0 +1,106 @@
+@import url(./reset.css);
+body {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+.blog {
+  padding: 90px 0;
+}
+.blog__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.blog__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.blog__title {
+  font-size: 42px;
+}
+.blog__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.blog__cards {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 30px;
+}
+
+.blog__card {
+    outline: 1px solid #c1d1d4;
+}
+
+.blog__card-content {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.blog__card-title {
+    margin-bottom: 15px;
+    max-width: 250px;
+    font-size: 22px;
+
+}
+
+.blog__card-desc {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    max-width: 250px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+a.card__link {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #0277b9;
+}
+
+.blog__link-wrap {
+    text-align: center;
+}
+
+
+.blog__link {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 40px 16px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    transition: background-color .3s ease-in,
+    color .3s ease-in, border-color .3s ease-in;
+
+}
+.blog__link:hover,
+.blog__link:focus {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+    outline: none;
+
+}
+
+.blog__link:active {
+    background-color: #444444;
+    border-color:  #444444;
+    
+}
+
+
+
+
+
